@@ -6,9 +6,9 @@ import Footer from '../components/Footer/footer'
 const AboutPage = () => {
   return (
    <>
-   <Navbar/>
+   {/* <Navbar/> */}
     <About/>
-    <Footer/>
+    {/* <Footer/> */}
    </>
   )
 }

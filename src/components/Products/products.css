@@ -1,0 +1,17 @@
+.productsBannerCont {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.productsBannerCont h1 {
+  position: absolute;
+  top: 20%;
+  left: 23%;
+  color: #fff;
+  font-family: Lalezar;
+  font-size: 240px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
