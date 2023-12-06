@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Fasthand&family=Inria+Sans:wght@300;400;700&family=Inter:wght@200;300;400;500;600;700;800&family=Italianno&family=M+PLUS+1:wght@400;500&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Orbitron:wght@400;500;600&family=Oswald:wght@300;400&family=Pacifico&family=Quicksand:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  /* border: 1px solid red; */
+  height: 100%;
+  background: url(../../../public/footerImg.png) center;
+  background-size: cover;
+}
+
+.footer {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.87);
+  padding: 35px 150px 20px 248px;
+}
+
+.footer h1 {
+  color: #dde9f0;
+  margin-bottom: 60px;
+  font-size: 45px;
+  font-family: "Inria Sans", sans-serif;
+}
+
+.holder {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-address-socialMedia-container {
+  width: 100%;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form form input,
+.form form textarea {
+  margin-bottom: 7px;
+  color: #fff;
+  border: 1.5px solid #dde9f0;
+  padding: 10px 10px;
+  border-radius: 4px;
+  background: transparent;
+  outline: none;
+  display: flex;
+  width: 395px;
+  flex-direction: column;
+}
+
+.form form input::placeholder,
+.form form textarea::placeholder {
+  font-family: "Inria Sans", sans-serif;
+  font-size: 14.2px;
+  font-style: italic;
+}
+
+.form form button {
+  font-family: "Inria Sans", sans-serif;
+  color: #545454;
+  margin-top: 10px;
+  width: 100px;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+.form h3 {
+  font-size: 29px;
+  font-family: "Inria Sans", sans-serif;
+  margin-bottom: 40px;
+  color: #dde9f0;
+}
+
+.contact-address {
+  display: flex;
+}
+
+.contact p {
+  color: #dde9f0;
+  font-weight: 600;
+  font-family: "Inria Sans", sans-serif;
+  font-size: 22px;
+}
+
+.contact p span {
+  color: #dde9f0;
+  font-weight: 400;
+  font-family: "Inria Sans", sans-serif;
+  font-size: 22px;
+}
+.contact h2 {
+  display: flex;
+  margin-top: 60px;
+  align-items: center;
+  color: #dde9f0;
+  font-weight: 700;
+  font-family: "Inria Sans", sans-serif;
+  font-size: 28px;
+}
+
+
+
+.contact {
+  flex: 1.15;
+}
+
+.address {
+  flex: 1;
+}
+
+.address h3 {
+  color: #dde9f0;
+  font-family: "Inria Sans", sans-serif;
+  margin-bottom: 40px;
+  font-size: 27px;
+}
+
+.address h5 {
+  color: #dde9f0;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-family: "Inria Sans", sans-serif;
+  font-size: 22px;
+}
+
+.address ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 !important;
+  list-style: none;
+}
+
+.address ul li {
+  width: 70%;
+  color: #dde9f0c2;
+  font-size: 12px;
+}
+
+.address ul span {
+  text-decoration: underline;
+}
+
+.socialMedia {
+  height: 15.3vh;
+  width: 350px;
+  font-family: "Inria Sans", sans-serif;
+  color: #dde9f0;
+  display: flex;
+  align-items: end;
+  font-size: 30px;
+}
+
+.socialMedia span {
+  margin-right: 30px;
+}

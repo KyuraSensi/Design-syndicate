@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Inter:wght@200;300;400;500;600;700;800&family=Italianno&family=M+PLUS+1:wght@400;500&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Orbitron:wght@400;500;600&family=Oswald:wght@300;400&family=Pacifico&family=Quicksand:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,700&display=swap');
+
+.navBanner {
+    /* border: 1px solid red; */
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../../public/home-featured\ 7.png);
+    height: 120vh;
+}
+
+.navbar {
+    padding: 0 105px 0 52px;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid blue; */
+    height: 23.4vh;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 53px;
+    max-height: 53px;
+}
+
+.search-icon {
+    height: 35px !important;
+}
+.logo {
+    display: block;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../../public/DSlogo.png);
+    width: 65px !important;
+    /* border: 1px solid purple; */
+}
+
+.link-1 {
+    width: 280px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #545454;
+}
+.link-2 {
+    width: 380px;
+    color: #545454;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.link-1, .link-2 {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}

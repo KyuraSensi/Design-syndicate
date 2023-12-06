@@ -1,10 +1,18 @@
-import React from 'react'
-import './home.css'
+import React from "react";
+import "./home.css";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <>
+      <div className="design-syndicate-text-background">
+        <div className="design-syndicate-text-background-text">
+          <h1>DESIGN SYNDICATE</h1>
+        </div>
 
-export default Home
+        
+      </div>
+    </>
+  );
+};
+
+export default Home;
